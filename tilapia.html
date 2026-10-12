@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ODIN RECIPE - Tilapia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kenyan Fried Tilapia</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="recipe">
+
+        <img 
+            src="images/Tilapia_and_ugali.jpg" 
+            alt="Kenyan fried tilapia served with ugali"
+        >
+
+        <div class="recipe-content">
+
+            <h1>Kenyan Fried Tilapia</h1>
+
+            <p class="description">
+                A crispy whole tilapia simmered in a rich tomato, onion,
+                garlic and dhania sauce. It's especially good with ugali
+                and sukuma wiki.
+                <div class="recipe-controls">
+
+    <div class="servings-control">
+        <label for="servings">Number of servings:</label>
+
+        <select id="servings">
+            <option value="1">1 person</option>
+            <option value="2" selected>2 people</option>
+            <option value="4">4 people</option>
+            <option value="6">6 people</option>
+        </select>
+    </div>
+
+    <button id="print-recipe">🖨️ Print Recipe</button>
+
+    <button id="theme-toggle">🌙 Dark Mode</button>
+
+</div>
+            </p>
+
+            <h2>Ingredients</h2>
+
+<ul class="ingredients">
+
+    <li>
+        <label>
+            <input type="checkbox">
+            <span class="ingredient"
+                  data-quantity="1"
+                  data-unit="whole"
+                  data-name="tilapia">
+                1 whole tilapia
+            </span>
+        </label>
+    </li>
+
+    <li>
+        <label>
+            <input type="checkbox">
+            <span class="ingredient"
+                  data-quantity="2"
+                  data-unit=""
+                  data-name="tomatoes">
+                2 tomatoes
+            </span>
+        </label>
+    </li>
+
+    <li>
+        <label>
+            <input type="checkbox">
+            <span class="ingredient"
+                  data-quantity="1"
+                  data-unit=""
+                  data-name="onion">
+                1 onion
+            </span>
+        </label>
+    </li>
+
+    <li>
+        <label>
+            <input type="checkbox">
+            <span class="ingredient"
+                  data-quantity="3"
+                  data-unit="cloves"
+                  data-name="garlic">
+                3 cloves garlic
+            </span>
+        </label>
+    </li>
+
+    <li>
+        <label>
+            <input type="checkbox">
+            <span class="ingredient"
+                  data-quantity="1"
+                  data-unit="tsp"
+                  data-name="dhania (coriander)">
+                1 tsp dhania (coriander)
+            </span>
+        </label>
+    </li>
+
+</ul>
+
+            <h2>Instructions</h2>
+
+            <ol class="instructions">
+                <li>Heat oil in a pan over medium heat.</li>
+
+                <li>
+                    Add the whole tilapia and cook for 5–7 minutes
+                    on each side, or until golden brown.
+                </li>
+
+                <li>
+                    Add chopped onions, tomatoes and garlic.
+                </li>
+
+                <li>
+                    Add dhania and simmer until the sauce thickens.
+                </li>
+
+                <li>
+                    Serve hot with ugali and sukuma wiki.
+                </li>
+            </ol>
+
+        </div>
+        <section class="timer-section">
+
+    <h2>Cooking Timer</h2>
+
+    <p>Set a timer while preparing your tilapia.</p>
+
+    <div id="timer-display">05:00</div>
+
+    <div class="timer-controls">
+
+        <button id="start-timer">Start</button>
+
+        <button id="pause-timer">Pause</button>
+
+        <button id="reset-timer">Reset</button>
+
+    </div>
+
+    <label for="timer-minutes">Timer duration (minutes):</label>
+
+    <input
+        type="number"
+        id="timer-minutes"
+        min="1"
+        max="180"
+        value="5"
+    >
+
+</section>
+<section class="rating-section">
+
+    <h2>Rate This Recipe</h2>
+
+    <p>How much did you enjoy this Kenyan fried tilapia recipe?</p>
+
+    <div class="stars" id="rating-stars">
+
+        <button type="button" data-rating="1" aria-label="Rate 1 out of 5">★</button>
+        <button type="button" data-rating="2" aria-label="Rate 2 out of 5">★</button>
+        <button type="button" data-rating="3" aria-label="Rate 3 out of 5">★</button>
+        <button type="button" data-rating="4" aria-label="Rate 4 out of 5">★</button>
+        <button type="button" data-rating="5" aria-label="Rate 5 out of 5">★</button>
+
+    </div>
+
+    <p id="rating-message" aria-live="polite">Choose a rating.</p>
+
+</section>
+
+    </main>
+    <script src="script.js" defer></script>
+
+</body>
+</html>
+
+
+
+    <a href="index.html">Home</a>
+
+</body>
+</html>
